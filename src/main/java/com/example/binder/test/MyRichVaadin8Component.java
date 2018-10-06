@@ -8,7 +8,7 @@ import com.vaadin.ui.Notification;
 import com.vaadin.ui.RichTextArea;
 import com.vaadin.ui.VerticalLayout;
 
-public class MyRichComponent extends VerticalLayout {
+public class MyRichVaadin8Component extends VerticalLayout {
 
 	private static final long serialVersionUID = -5037141605397053284L;
 
@@ -17,7 +17,7 @@ public class MyRichComponent extends VerticalLayout {
 	RichTextArea rich = new RichTextArea();
 	Dummy dummy = new Dummy();
 	
-	public MyRichComponent() {
+	public MyRichVaadin8Component() {
 		super();
 		this.setSizeFull();
 		
@@ -34,7 +34,7 @@ public class MyRichComponent extends VerticalLayout {
             }
             Notification.show("Current bean name: " + dummy.getText());
         });
-        hl.addComponents(new Label("Editor"), button);
+        hl.addComponents(new Label("Vaadin 8 RichText"), button);
 		
 		addComponents(hl, rich);
 		

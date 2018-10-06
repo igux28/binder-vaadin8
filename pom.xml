@@ -66,6 +66,14 @@
 			<groupId>com.vaadin</groupId>
 			<artifactId>vaadin-themes</artifactId>
 		</dependency>
+		<dependency>
+		  <groupId>com.vaadin</groupId>
+		  <artifactId>vaadin-compatibility-server</artifactId>
+		</dependency>	
+		<dependency>
+ <groupId>com.vaadin</groupId>
+ <artifactId>vaadin-compatibility-client-compiled</artifactId>
+</dependency>	
 	</dependencies>
 
 	<build>
